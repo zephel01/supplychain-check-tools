@@ -1,0 +1,188 @@
+# ============================================================================
+# .gitattributes - Git file configuration
+# サプライチェーン攻撃防止ツール用 ファイル属性設定
+# ============================================================================
+# 
+# このファイルは、ファイルタイプごとに Git の動作を制御します:
+# - 改行コード（LF vs CRLF）の自動変換
+# - バイナリ/テキストの判定
+# - Diff・Merge の方法
+#
+# ============================================================================
+
+# ============================================================================
+# 1. Line Endings (改行コード) - Unix/Windows互換性確保
+# ============================================================================
+
+# Bash スクリプト: Unix形式（LF）で統一
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.ksh text eol=lf
+
+# PowerShell スクリプト: Windows形式（CRLF）で統一
+*.ps1 text eol=crlf
+*.ps2 text eol=crlf
+*.psd1 text eol=crlf
+*.psm1 text eol=crlf
+
+# Batch/CMD スクリプト: Windows形式（CRLF）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.com text eol=crlf
+
+# 設定ファイル: Unix形式（LF）で統一
+*.conf text eol=lf
+*.config text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+
+# ドキュメント: Unix形式（LF）で統一
+*.md text eol=lf
+*.markdown text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+README text eol=lf
+LICENSE text eol=lf
+COPYING text eol=lf
+AUTHORS text eol=lf
+CHANGELOG text eol=lf
+CHANGES text eol=lf
+HISTORY text eol=lf
+
+# ソースコード: 言語別に統一
+*.py text eol=lf
+*.rb text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.java text eol=lf
+
+# ============================================================================
+# 2. Binary Files (バイナリファイル)
+# ============================================================================
+
+# 画像ファイル
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg binary
+*.tiff binary
+*.bmp binary
+
+# 圧縮ファイル
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.tar.bz2 binary
+*.rar binary
+*.7z binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+
+# ドキュメント
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+*.odt binary
+*.ods binary
+
+# 実行ファイル・ライブラリ
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.a binary
+*.o binary
+*.obj binary
+
+# その他バイナリ
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.bin binary
+*.class binary
+*.jar binary
+*.pyc binary
+*.pyo binary
+
+# ============================================================================
+# 3. Diff Strategy (Diff表示方法)
+# ============================================================================
+
+# マークダウン: マークダウン用の Diff
+*.md diff=markdown
+
+# JSON: JSON用の Diff
+*.json diff=json
+
+# Python: Python用の Diff
+*.py diff=python
+
+# ============================================================================
+# 4. Merge Strategy (マージ戦略)
+# ============================================================================
+
+# Lock ファイル: 自動マージで union 使用（最新を採用）
+package-lock.json merge=union
+yarn.lock merge=union
+Gemfile.lock merge=union
+Pipfile.lock merge=union
+Cargo.lock merge=union
+
+# ============================================================================
+# 5. Delta Compression (圧縮設定)
+# ============================================================================
+
+# Delta 圧縮が有効（テキストファイル）
+# text ファイルは自動的に有効
+
+# Delta 圧縮が無効（バイナリ）
+*.mp3 delta
+*.mp4 delta
+*.zip delta
+
+# ============================================================================
+# 6. Encoding (エンコーディング)
+# ============================================================================
+
+# UTF-8 を明示的に指定
+*.md encoding=UTF-8
+*.txt encoding=UTF-8
+*.sh encoding=UTF-8
+*.ps1 encoding=UTF-8
+
+# ============================================================================
+# 注釈・説明
+# ============================================================================
+#
+# text:       テキストファイルとして扱う
+# binary:     バイナリファイルとして扱う
+# eol=lf:     Unix形式改行（LF のみ）に統一
+# eol=crlf:   Windows形式改行（CRLF）に統一
+# diff=xxx:   言語固有の Diff 形式を使用
+# merge=xxx:  マージ戦略を指定
+# delta:      Delta 圧縮を有効化
+# encoding:   ファイルのエンコーディングを指定
+#
+# ============================================================================
+

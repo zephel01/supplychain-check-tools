@@ -31,6 +31,13 @@
 | **[CONTRIBUTING.md](CONTRIBUTING.md)** | 貢献ガイド | 開発に参加する人 |
 | **[../LICENSE](../LICENSE)** | MIT ライセンス | ライセンス確認 |
 
+### note.com 記事 (inside/ ディレクトリ)
+
+| ファイル | 説明 | 対象者 |
+|---------|------|--------|
+| **[inside/NOTE_ARTICLE.md](inside/NOTE_ARTICLE.md)** | note.com記事（Markdown） | note.com 執筆者、Markdown対応サイト |
+| **[inside/NOTE_ARTICLE_PLAINTEXT.txt](inside/NOTE_ARTICLE_PLAINTEXT.txt)** | note.com記事（プレーンテキスト） | プレーンテキスト形式が必要な人 |
+
 ---
 
 ## 🎯 目的別ガイド
@@ -59,6 +66,11 @@
 1. [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) - 構成確認
 2. [GIT_CONFIG_GUIDE.md](GIT_CONFIG_GUIDE.md) - Git設定
 3. [CONTRIBUTING.md](CONTRIBUTING.md) - ガイドライン共有
+
+### 「note.com で記事を公開したい」
+1. [inside/NOTE_ARTICLE.md](inside/NOTE_ARTICLE.md) - note.com Markdown版
+2. [inside/NOTE_ARTICLE_PLAINTEXT.txt](inside/NOTE_ARTICLE_PLAINTEXT.txt) - プレーンテキスト版
+3. [README.md](../README.md) - 最新情報を反映させるため確認
 
 ---
 
@@ -100,6 +112,9 @@
 
 ### ファイル構成
 → [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)
+
+### note.com 記事について
+→ [inside/NOTE_ARTICLE.md](inside/NOTE_ARTICLE.md) or [inside/NOTE_ARTICLE_PLAINTEXT.txt](inside/NOTE_ARTICLE_PLAINTEXT.txt)
 
 ---
 

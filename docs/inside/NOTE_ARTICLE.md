@@ -153,7 +153,7 @@
 
 ```powershell
 # ツールをダウンロード
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 ```
 
@@ -188,7 +188,7 @@ notepad supply_chain_check_report_*.txt
 #### Step 2: ツールをダウンロード
 
 ```bash
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 ```
 
@@ -412,7 +412,7 @@ cp supply_chain_check_report_*.txt ~/security_reports/
 | **IMPLEMENTATION_GUIDE.md** | カスタマイズしたい人 |
 
 全て GitHub に無料で公開されています：
-https://github.com/your-username/supplychain-check-tools
+https://github.com/zephel01/supplychain-check-tools
 
 ---
 
@@ -451,16 +451,16 @@ https://github.com/your-username/supplychain-check-tools
 
 ## 🔗 リンク集
 
-- 📥 **ダウンロード**: https://github.com/your-username/supplychain-check-tools
-- 📖 **詳細ガイド**: https://github.com/your-username/supplychain-check-tools/blob/main/docs/BEGINNER_GUIDE.md
-- 📚 **完全ドキュメント**: https://github.com/your-username/supplychain-check-tools/blob/main/README.md
-- 📝 **実装ガイド**: https://github.com/your-username/supplychain-check-tools/blob/main/docs/IMPLEMENTATION_GUIDE.md
+- 📥 **ダウンロード**: https://github.com/zephel01/supplychain-check-tools
+- 📖 **詳細ガイド**: https://github.com/zephel01/supplychain-check-tools/blob/main/docs/BEGINNER_GUIDE.md
+- 📚 **完全ドキュメント**: https://github.com/zephel01/supplychain-check-tools/blob/main/README.md
+- 📝 **実装ガイド**: https://github.com/zephel01/supplychain-check-tools/blob/main/docs/IMPLEMENTATION_GUIDE.md
 
 ---
 
 ## 👨‍💻 このツールについて
 
-- **作成者**: Supply Chain Security Tool Contributors
+- **作成者**: zephel01
 - **ライセンス**: MIT（自由に使える）
 - **対応OS**: Windows、macOS、Linux、Raspberry Pi
 - **バージョン**: 1.0.0

@@ -269,8 +269,10 @@ coverage/
 
 # ドキュメント生成物
 docs/_build/
-docs/inside/
 site/
+
+# Note: docs/inside/ に含まれる NOTE_ARTICLE.md と NOTE_ARTICLE_PLAINTEXT.txt は
+# 公式なドキュメントなため、上記から除外して git で管理します。
 
 # ============================================================================
 # ホワイトリスト (以下は含める)

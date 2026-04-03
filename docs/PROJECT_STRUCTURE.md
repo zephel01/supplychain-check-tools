@@ -15,12 +15,17 @@ supplychain-check-tools/
 │   ├── QUICKSTART.md              5分で実行するガイド
 │   └── README.md                  完全なドキュメント
 │
-├── 📚 ドキュメント
+├── 📚 ドキュメント (docs/)
+│   ├── INDEX.md                   ドキュメント索引
 │   ├── IMPLEMENTATION_GUIDE.md    技術詳細・カスタマイズ
 │   ├── GIT_CONFIG_GUIDE.md        Git設定の詳細説明
 │   ├── PROJECT_STRUCTURE.md       このファイル
 │   ├── CONTRIBUTING.md            貢献ガイド
-│   └── LICENSE                    MIT ライセンス
+│   ├── BEGINNER_GUIDE.md          初心者向け完全ガイド
+│   │
+│   └── 📄 note.com記事 (docs/inside/)
+│       ├── NOTE_ARTICLE.md              note.com最適化記事 (Markdown)
+│       └── NOTE_ARTICLE_PLAINTEXT.txt   note.com最適化記事 (プレーンテキスト)
 │
 ├── 🔧 セキュリティチェックスクリプト
 │   ├── check-supply-chain-windows.ps1  Windows用 (PowerShell)
@@ -203,6 +208,25 @@ supplychain-check-tools/
 - **重要**: 必ずリポジトリに含める
 - **変更不可**: MIT ライセンス以外にしたい場合は事前相談
 
+### Note.com 記事（docs/inside/ ディレクトリ）
+
+#### **NOTE_ARTICLE.md**
+- **目的**: note.com 向けマークダウン記事
+- **内容**:
+  - サプライチェーン攻撃の説明
+  - 初心者向けの使い方ガイド
+  - インストール手順
+  - よくある質問と回答
+- **読むべき人**: note.com で記事を公開したい人
+- **用途**: note.com への直接投稿用（Markdown形式）
+
+#### **NOTE_ARTICLE_PLAINTEXT.txt**
+- **目的**: note.com 向けプレーンテキスト記事
+- **内容**: NOTE_ARTICLE.md と同じ内容
+- **読むべき人**: Markdown 形式が使えない環境の人
+- **用途**: note.com への直接貼り付け用（プレーンテキスト形式）
+- **特徴**: HTML や Markdown タグなし、そのまま note.com に貼り付け可能
+
 #### **.editorconfig** (オプション)
 - **目的**: エディタ設定を統一
 - **内容例**:
@@ -237,12 +261,13 @@ supplychain-check-tools/
 ## 📊 ファイル統計
 
 ```
-総コード/ドキュメント行数:  3,900+ 行
-総ファイル数:              13個
-合計ファイルサイズ:         ~300KB
+総コード/ドキュメント行数:  5,000+ 行
+総ファイル数:              16個（+ docs/inside/ に2ファイル）
+合計ファイルサイズ:         ~400KB
 実装されたチェック機能:     12項目
 対応プラットフォーム:       4種類
-ドキュメントページ数:       約50ページ相当
+ドキュメントページ数:       約60ページ相当
+note.com 記事:             2形式（Markdown + プレーンテキスト）
 ```
 
 ---

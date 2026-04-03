@@ -131,7 +131,7 @@ Step 1: PowerShell を開く
 2. Windows PowerShell をクリック
 
 Step 2: ツールをダウンロード
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 
 ※ Git がない場合：
@@ -154,7 +154,7 @@ Step 1: ターミナルを開く
 • Linux: アプリケーションメニュー → ターミナル
 
 Step 2: ツールをダウンロード
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 
 Step 3: 実行権限を付与
@@ -345,7 +345,7 @@ cp supply_chain_check_report_*.txt ~/security_reports/
 • IMPLEMENTATION_GUIDE.md - カスタマイズしたい人向け
 
 全て GitHub に無料で公開されています：
-https://github.com/your-username/supplychain-check-tools
+https://github.com/zephel01/supplychain-check-tools
 
 =============================
 
@@ -383,16 +383,16 @@ https://github.com/your-username/supplychain-check-tools
 【リンク集】
 
 📥 ダウンロード: 
-https://github.com/your-username/supplychain-check-tools
+https://github.com/zephel01/supplychain-check-tools
 
 📖 詳細ガイド: 
-https://github.com/your-username/supplychain-check-tools/blob/main/docs/BEGINNER_GUIDE.md
+https://github.com/zephel01/supplychain-check-tools/blob/main/docs/BEGINNER_GUIDE.md
 
 📚 完全ドキュメント: 
-https://github.com/your-username/supplychain-check-tools/blob/main/README.md
+https://github.com/zephel01/supplychain-check-tools/blob/main/README.md
 
 📝 実装ガイド: 
-https://github.com/your-username/supplychain-check-tools/blob/main/docs/IMPLEMENTATION_GUIDE.md
+https://github.com/zephel01/supplychain-check-tools/blob/main/docs/IMPLEMENTATION_GUIDE.md
 
 =============================
 

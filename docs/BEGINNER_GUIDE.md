@@ -237,7 +237,7 @@ sudo apt install python3 python3-pip
 cd $HOME\Desktop
 
 # ツールをダウンロード
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 
 # ダウンロード完了！
@@ -250,7 +250,7 @@ cd supplychain-check-tools
 cd ~
 
 # ツールをダウンロード
-git clone https://github.com/your-username/supplychain-check-tools.git
+git clone https://github.com/zephel01/supplychain-check-tools.git
 cd supplychain-check-tools
 
 # ダウンロード完了！
